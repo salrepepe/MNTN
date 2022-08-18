@@ -1,0 +1,42 @@
+.firstScreen {
+  padding: 199px 0 0;
+  position: relative;
+	height: 1200px;
+
+  .mountains {
+    position: absolute;
+    bottom: -15%;
+    left: 0;
+    width: 100%;
+    z-index: -2;
+  }
+
+	.valley {
+    position: absolute;
+    bottom: -15%;
+    left: 0;
+    width: 100%;
+    z-index: -2;
+  }
+	
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .link-next {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: "Gilroy-Bold";
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 40px;
+    svg {
+      height: 30px;
+      margin-left: 16px;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.footer {
+  padding: 140px 0 120px;
+  .logo {
+    margin-bottom: 24px;
+    display: block;
+  }
+
+  .h5 {
+    font-family: "Gilroy-Light";
+    line-height: 32px;
+    font-weight: 500;
+    display: block;
+    text-decoration: none;
+  }
+
+  .h4 {
+    font-family: "Gilroy-Bold";
+    color: var(--color-primary);
+    margin-bottom: 24px;
+    white-space: nowrap;
+  }
+
+  .copyright {
+    margin-top: 122px;
+    opacity: 0.5;
+    font-weight: 300;
+  }
+}

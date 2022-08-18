@@ -1,0 +1,106 @@
+@import url("http://fonts.cdnfonts.com/css/chronicle-display");
+@import url("http://fonts.cdnfonts.com/css/gilroy-bold");
+@import url("../libs/bootstrap/bootstrap-grid.min.css");
+
+@import "../scss/header";
+@import "../scss/firstScreen";
+@import "../scss/content";
+@import "../scss/footer";
+
+:root {
+  --color-primary: #fbd784;
+}
+
+* {
+  font-family: "Chronicle Display";
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0b1d26;
+}
+
+img {
+  width: 100%;
+}
+
+.h1 {
+  font-size: 88px;
+  font-weight: 500;
+  max-width: 979px;
+  line-height: 100px;
+  text-transform: capitalize;
+  color: #ffffff;
+
+  margin-top: 32px;
+}
+
+.h2 {
+  font-size: 64px;
+  margin: 27px 0;
+}
+
+.h3 {
+  font-size: 32px;
+}
+
+.h4 {
+  font-size: 24px;
+}
+
+.h5 {
+  font-size: 18px;
+}
+
+.descr {
+  font-family: "Gilroy-Bold";
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 27px;
+}
+
+.yellow-title {
+  font-family: "Gilroy-Bold";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #fbd784;
+  position: relative;
+  margin-left: 104px;
+
+  &:before {
+    position: absolute;
+    top: 50%;
+    left: -104px;
+    content: "";
+    width: 72px;
+    height: 2px;
+    background-color: var(--color-primary);
+  }
+
+  &:after {
+    position: absolute;
+    top: -100px;
+    left: -110px;
+    content: attr(id);
+    font-family: "Gilroy-Bold";
+    font-weight: bold;
+    font-size: 240px;
+    line-height: 240px;
+    color: #ffffff;
+    opacity: 0.1;
+  }
+}
+
+.logo {
+  font-size: 32px;
+  text-transform: capitalize;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+}
